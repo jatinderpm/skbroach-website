@@ -6,3 +6,519 @@
 <title>How to Specify a Broach: Tolerances, Materials & Lead Times | SK Broach Blog</title>
 <meta name="description" content="A practical guide to specifying a broach — profile tolerances, HSS material grade, pilot diameter, surface finish, and what to send your manufacturer. By SK Broach, India.">
 <link rel="canonical" href="https://skbroach.com/blog/how-to-specify-a-broach/">
+
+<!-- Open Graph -->
+<meta property="og:title" content="How to Specify a Broach: Tolerances, Materials & Lead Times">
+<meta property="og:description" content="What engineers need to know when specifying a broach — profile, tolerances, HSS grade, finish, and what information to send your manufacturer.">
+<meta property="og:url" content="https://skbroach.com/blog/how-to-specify-a-broach/">
+<meta property="og:type" content="article">
+<meta name="google-site-verification" content="QBKa81ODUt1FGRBEwPm-CHUGZwUPhbgnW1mhioX0Qic" />
+
+<!-- Article Schema -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "headline": "How to Specify a Broach: Tolerances, Materials and Lead Times",
+  "description": "A practical guide to specifying a broach — profile tolerances, HSS material grade, pilot diameter, surface finish, and what to send your manufacturer.",
+  "author": {
+    "@type": "Organization",
+    "name": "SK Broach",
+    "url": "https://skbroach.com"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "SK Broach",
+    "url": "https://skbroach.com",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://skbroach.com/images/sk-broach-logo.png"
+    }
+  },
+  "datePublished": "2026-06-18",
+  "dateModified": "2026-06-18",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://skbroach.com/blog/how-to-specify-a-broach/"
+  }
+}
+</script>
+
+<!-- BreadcrumbList Schema -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://skbroach.com/"},
+    {"@type": "ListItem", "position": 2, "name": "Blog", "item": "https://skbroach.com/blog/"},
+    {"@type": "ListItem", "position": 3, "name": "How to Specify a Broach", "item": "https://skbroach.com/blog/how-to-specify-a-broach/"}
+  ]
+}
+</script>
+
+<!-- FAQ Schema -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What information do I need to specify a broach?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "To specify a broach you need: the profile type and dimensions (e.g. keyway width and depth, or spline module and number of teeth), the workpiece bore diameter (pilot size), workpiece material and hardness, required tolerance class (e.g. H7/H8 for keyways, DIN 5480 class for splines), desired surface finish (Ra value), and your expected production volume. A drawing or standard reference is ideal."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What tolerance can a broach hold?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "A well-made HSS broach can consistently hold tolerances of IT7 to IT8 on the broached profile. For keyways this typically means ±0.01–0.02 mm on width. For splines, DIN 5480 Class 7 or 8 is standard. Tighter tolerances (IT6) are achievable with ground broaches and controlled cutting conditions."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is the typical lead time for a custom broach?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "For standard profile custom broaches (keyway, spline, hex), typical lead time from a manufacturer like SK Broach is 2–4 weeks depending on complexity and material. Complex form broaches or very large broaches may take 4–8 weeks. Providing a complete drawing at the time of enquiry avoids back-and-forth and shortens lead time."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Which HSS grade should I specify for my broach?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "For general-purpose broaching of mild and medium carbon steels, M2 HSS is standard and cost-effective. For stainless steel, alloy steels, or high-production runs, specify M35 (cobalt HSS) for better hot hardness. For hardened steels above 40 HRC, titanium, or Inconel, specify ASP2030 or similar PM-HSS. If unsure, share your workpiece material and the manufacturer will recommend the right grade."
+      }
+    }
+  ]
+}
+</script>
+
+<style>
+:root {
+  --gold: #C8922A;
+  --gold2: #E8B84B;
+  --dark: #0F0F0F;
+  --dark2: #1C1C1C;
+  --border: rgba(200,146,42,0.25);
+  --light-bg: #F8F6F2;
+  --text: #1a1a1a;
+  --muted: #666;
+}
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body { font-family: 'Segoe UI', system-ui, sans-serif; color: var(--text); background: #fff; line-height: 1.7; }
+
+/* NAV */
+nav { background: var(--dark); padding: 0 40px; display: flex; align-items: center; justify-content: space-between; height: 64px; }
+.nav-logo { font-size: 22px; font-weight: 800; color: #fff; text-decoration: none; }
+.nav-logo span { color: var(--gold2); }
+.nav-links { display: flex; gap: 28px; list-style: none; align-items: center; }
+.nav-links a { color: rgba(255,255,255,0.8); text-decoration: none; font-size: 14px; font-weight: 500; }
+.nav-cta { background: var(--gold); color: #fff !important; padding: 8px 20px; border-radius: 4px; font-weight: 600 !important; }
+
+/* BREADCRUMB */
+.breadcrumb { background: var(--light-bg); border-bottom: 1px solid var(--border); padding: 10px 40px; font-size: 13px; color: var(--muted); }
+.breadcrumb a { color: var(--gold); text-decoration: none; }
+.breadcrumb a:hover { text-decoration: underline; }
+
+/* ARTICLE LAYOUT */
+.article-wrap { max-width: 1100px; margin: 0 auto; padding: 48px 24px 80px; display: grid; grid-template-columns: 1fr 300px; gap: 48px; align-items: start; }
+@media (max-width: 800px) { .article-wrap { grid-template-columns: 1fr; } .sidebar { display: none; } }
+
+/* ARTICLE */
+article { min-width: 0; }
+.post-tag { font-size: 11px; font-weight: 700; color: var(--gold); letter-spacing: 0.1em; text-transform: uppercase; margin-bottom: 14px; }
+article h1 { font-size: 34px; font-weight: 800; color: var(--dark); line-height: 1.2; margin-bottom: 16px; }
+.post-meta { font-size: 13px; color: var(--muted); margin-bottom: 32px; padding-bottom: 24px; border-bottom: 1px solid var(--border); }
+.post-meta strong { color: var(--text); }
+
+.intro-box { background: var(--light-bg); border-left: 4px solid var(--gold); border-radius: 0 8px 8px 0; padding: 20px 24px; margin-bottom: 36px; font-size: 15px; color: #444; }
+
+article h2 { font-size: 24px; font-weight: 700; color: var(--dark); margin: 40px 0 14px; padding-top: 8px; border-top: 1px solid var(--border); }
+article h3 { font-size: 18px; font-weight: 700; color: var(--dark); margin: 28px 0 10px; }
+article p { margin-bottom: 16px; color: #333; font-size: 15.5px; }
+article ul, article ol { margin: 0 0 18px 22px; }
+article li { margin-bottom: 7px; font-size: 15.5px; color: #333; }
+article strong { color: var(--dark); }
+
+/* SPEC TABLE */
+.spec-table { width: 100%; border-collapse: collapse; margin: 24px 0 32px; font-size: 14px; }
+.spec-table th { background: var(--dark); color: #fff; padding: 11px 14px; text-align: left; font-size: 13px; font-weight: 600; letter-spacing: 0.03em; }
+.spec-table td { padding: 10px 14px; border-bottom: 1px solid var(--border); vertical-align: top; }
+.spec-table tr:nth-child(even) td { background: var(--light-bg); }
+.spec-table td:first-child { font-weight: 600; color: var(--dark); width: 36%; }
+.spec-table .required { color: #c00; font-weight: 700; font-size: 12px; }
+.spec-table .optional { color: #777; font-size: 12px; }
+
+/* CHECKLIST */
+.checklist { background: var(--dark); border-radius: 10px; padding: 28px 32px; margin: 32px 0; color: #fff; }
+.checklist h3 { color: var(--gold2); margin: 0 0 16px; font-size: 16px; letter-spacing: 0.05em; text-transform: uppercase; }
+.checklist ul { list-style: none; margin: 0; padding: 0; }
+.checklist li { padding: 7px 0; font-size: 14px; display: flex; align-items: flex-start; gap: 10px; border-bottom: 1px solid rgba(255,255,255,0.07); }
+.checklist li:last-child { border-bottom: none; }
+.checklist li::before { content: "✓"; color: var(--gold2); font-weight: 700; flex-shrink: 0; margin-top: 1px; }
+
+/* TOLERANCE TABLE */
+.tol-table { width: 100%; border-collapse: collapse; margin: 20px 0 28px; font-size: 14px; }
+.tol-table th { background: var(--dark2); color: #fff; padding: 10px 14px; text-align: left; font-size: 13px; }
+.tol-table td { padding: 10px 14px; border-bottom: 1px solid var(--border); }
+.tol-table tr:nth-child(even) td { background: var(--light-bg); }
+.tol-table td:first-child { font-weight: 600; }
+
+/* HIGHLIGHT BOX */
+.highlight-box { border: 1px solid var(--border); border-radius: 8px; padding: 20px 24px; margin: 28px 0; background: #fffdf7; }
+.highlight-box h4 { color: var(--gold); font-size: 14px; font-weight: 700; text-transform: uppercase; letter-spacing: 0.06em; margin-bottom: 10px; }
+.highlight-box p { margin: 0; font-size: 14.5px; color: #444; }
+
+/* FAQ */
+.faq-section { margin-top: 48px; }
+.faq-section h2 { border-top: 1px solid var(--border); padding-top: 8px; }
+.faq-item { border-bottom: 1px solid var(--border); padding: 20px 0; }
+.faq-item h3 { font-size: 16px; font-weight: 700; color: var(--dark); margin: 0 0 10px; }
+.faq-item p { margin: 0; font-size: 15px; color: #444; }
+
+/* CTA */
+.cta-block { background: var(--dark); border-radius: 10px; padding: 36px 40px; margin-top: 48px; text-align: center; }
+.cta-block h3 { color: #fff; font-size: 22px; font-weight: 700; margin-bottom: 10px; }
+.cta-block p { color: rgba(255,255,255,0.65); font-size: 15px; margin-bottom: 24px; }
+.cta-block a { display: inline-block; background: var(--gold); color: #fff; padding: 13px 30px; border-radius: 5px; font-weight: 700; font-size: 15px; text-decoration: none; }
+.cta-block a:hover { background: var(--gold2); }
+
+/* SIDEBAR */
+.sidebar { position: sticky; top: 32px; }
+.sidebar-card { background: var(--light-bg); border: 1px solid var(--border); border-radius: 8px; padding: 22px; margin-bottom: 20px; }
+.sidebar-card h4 { font-size: 12px; font-weight: 700; text-transform: uppercase; letter-spacing: 0.08em; color: var(--muted); margin-bottom: 14px; }
+.toc-list { list-style: none; margin: 0; padding: 0; }
+.toc-list li { border-bottom: 1px solid var(--border); }
+.toc-list a { display: block; padding: 8px 0; font-size: 13px; color: #444; text-decoration: none; }
+.toc-list a:hover { color: var(--gold); }
+.related-list { list-style: none; margin: 0; padding: 0; }
+.related-list li { margin-bottom: 10px; }
+.related-list a { font-size: 13px; color: var(--gold); text-decoration: none; font-weight: 600; line-height: 1.4; }
+.related-list a:hover { text-decoration: underline; }
+
+/* FOOTER */
+footer { background: var(--dark); color: rgba(255,255,255,0.6); text-align: center; padding: 32px; font-size: 13px; margin-top: 0; }
+footer a { color: var(--gold2); text-decoration: none; }
+</style>
+</head>
+<body>
+
+<nav>
+  <a href="/" class="nav-logo">SK<span>Broach</span></a>
+  <ul class="nav-links">
+    <li><a href="/#products">Products</a></li>
+    <li><a href="/about/">About</a></li>
+    <li><a href="/#quality">Quality</a></li>
+    <li><a href="/exports/">Export</a></li>
+    <li><a href="/get-a-quote/" class="nav-cta">Request a Quote →</a></li>
+  </ul>
+</nav>
+
+<div class="breadcrumb">
+  <a href="/">Home</a> › <a href="/blog/">Blog</a> › How to Specify a Broach
+</div>
+
+<div class="article-wrap">
+<article>
+
+  <div class="post-tag">Engineering Guide</div>
+  <h1>How to Specify a Broach: Tolerances, Materials and Lead Times</h1>
+  <div class="post-meta">
+    By <strong>SK Broach Engineering Team</strong> &nbsp;·&nbsp; Published 18 June 2026 &nbsp;·&nbsp; 8 min read
+  </div>
+
+  <div class="intro-box">
+    Specifying a broach correctly the first time avoids costly delays, rework, and tool failures. This guide covers exactly what information your manufacturer needs — from profile dimensions and tolerances to HSS grade selection and realistic lead time expectations.
+  </div>
+
+  <h2 id="what-is-broach-specification">What Does "Specifying a Broach" Mean?</h2>
+  <p>When you order a custom broach, you are ordering a precision cutting tool made to your exact requirements. Unlike standard catalogue tools, a broach is manufactured to cut a specific profile — a keyway, spline, hex socket, or custom form — in a specific workpiece material to a specific tolerance.</p>
+  <p>A complete specification gives the manufacturer everything they need to design and manufacture the right tool without guessing. An incomplete specification leads to clarification requests, extended lead times, and sometimes a finished tool that doesn't do what you need.</p>
+  <p>The good news: if you understand the broached component you need, you already have most of the information. This guide shows you how to put it together.</p>
+
+  <h2 id="required-information">The Six Things Your Manufacturer Needs</h2>
+  <p>Whether you are ordering a keyway broach, spline broach, hex broach, or a custom form broach, the following six items are required. If you can provide all six at the time of enquiry, expect the fastest turnaround.</p>
+
+  <table class="spec-table">
+    <thead>
+      <tr>
+        <th>Specification Item</th>
+        <th>What to Provide</th>
+        <th>Status</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Profile type &amp; dimensions</td>
+        <td>Keyway (width × depth), spline (module, teeth count, pressure angle), hex (A/F size), or DXF/PDF drawing for custom forms</td>
+        <td><span class="required">Required</span></td>
+      </tr>
+      <tr>
+        <td>Pilot (bore) diameter</td>
+        <td>The diameter of the pre-machined hole the broach passes through. Must match the broach shank and pilot precisely.</td>
+        <td><span class="required">Required</span></td>
+      </tr>
+      <tr>
+        <td>Workpiece material &amp; hardness</td>
+        <td>e.g. EN8 (0.4% carbon steel, 200 HB), 304 SS, EN24 (42 HRC), Cast iron GG25</td>
+        <td><span class="required">Required</span></td>
+      </tr>
+      <tr>
+        <td>Tolerance class</td>
+        <td>For keyways: H7 or H8 (ISO 286). For splines: DIN 5480 Class 7 or 8. For custom: specify ± tolerance on critical dimensions.</td>
+        <td><span class="required">Required</span></td>
+      </tr>
+      <tr>
+        <td>Surface finish</td>
+        <td>Ra value in µm (e.g. Ra 1.6, Ra 0.8). If not specified, manufacturer will apply standard finish for the profile type.</td>
+        <td><span class="optional">Recommended</span></td>
+      </tr>
+      <tr>
+        <td>Expected production volume</td>
+        <td>Annual or batch quantity. Affects tooth geometry design, cutting allowance per tooth, and recommended HSS grade.</td>
+        <td><span class="optional">Recommended</span></td>
+      </tr>
+    </tbody>
+  </table>
+
+  <div class="highlight-box">
+    <h4>Tip: Send a Drawing</h4>
+    <p>The fastest way to specify a broach is to send the drawing of the <em>finished broached component</em> — not the broach itself. The manufacturer can derive the broach geometry from the component drawing. A PDF or DXF is ideal; a dimensioned sketch is also acceptable.</p>
+  </div>
+
+  <h2 id="tolerances">Tolerances: What a Broach Can Hold</h2>
+  <p>Broaching is one of the most dimensionally consistent machining processes. Because the tool profile is fixed and each tooth removes a controlled chip load, a properly designed broach held in a rigid fixture will produce near-identical profiles across thousands of parts.</p>
+  <p>The following table shows typical achievable tolerances for common broached profiles:</p>
+
+  <table class="tol-table">
+    <thead>
+      <tr>
+        <th>Profile Type</th>
+        <th>Standard Tolerance Class</th>
+        <th>Typical Dimensional Range</th>
+        <th>Notes</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Keyway (width)</td>
+        <td>ISO H7 / H8</td>
+        <td>±0.010–0.020 mm</td>
+        <td>H7 for precision fits; H8 for general use</td>
+      </tr>
+      <tr>
+        <td>Keyway (depth)</td>
+        <td>±0.02–0.05 mm</td>
+        <td>Less critical than width</td>
+        <td>Controlled by shell broach design</td>
+      </tr>
+      <tr>
+        <td>Involute spline</td>
+        <td>DIN 5480 Class 7/8</td>
+        <td>Tooth thickness ±0.010 mm</td>
+        <td>Class 7 for close fits, Class 8 for sliding</td>
+      </tr>
+      <tr>
+        <td>Hex / square</td>
+        <td>ISO H7</td>
+        <td>A/F ±0.010–0.015 mm</td>
+        <td>Across-flats dimension critical</td>
+      </tr>
+      <tr>
+        <td>Round / internal bore</td>
+        <td>ISO H6 / H7</td>
+        <td>±0.005–0.015 mm</td>
+        <td>Ground broach required for H6</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <p>Tighter tolerances (IT6 and below) are achievable but require ground-finish broaches and more controlled machining conditions. If your application demands IT6, specify this explicitly so the manufacturer can quote accordingly.</p>
+
+  <h2 id="material-grade">Choosing the Right HSS Grade</h2>
+  <p>The HSS grade you specify affects tool life, cutting performance, and cost. The choice primarily depends on your workpiece material and production volume. There are three grades to know:</p>
+
+  <h3>M2 — Standard Grade</h3>
+  <p>M2 is the workhorse of the broaching industry. It contains tungsten, molybdenum, chromium, and vanadium, giving it a good balance of hardness (63–65 HRC), toughness, and cost. Suitable for the majority of broaching applications: mild steel, medium carbon steel, aluminium, brass, and cast iron.</p>
+  <p><strong>Specify M2 when:</strong> broaching mild to medium-hard steels (up to ~30 HRC), production volumes are moderate, and cost-effectiveness is a priority.</p>
+
+  <h3>M35 — Cobalt Grade</h3>
+  <p>M35 adds 5% cobalt to the M2 composition. Cobalt raises hot hardness — the ability to maintain a sharp cutting edge at elevated temperatures. This matters in high-speed operations or when broaching stainless steel, which work-hardens rapidly and generates heat at the cutting edge.</p>
+  <p><strong>Specify M35 when:</strong> broaching stainless steel, alloy steel (EN24, EN36), or any material that generates significant cutting heat. Also preferred for high-production runs where tool life is critical.</p>
+
+  <h3>ASP2030 — Powder Metallurgy Grade</h3>
+  <p>ASP2030 is manufactured by a powder metallurgy (PM) process, which produces a uniform carbide distribution impossible to achieve in conventionally cast HSS. The result is superior toughness, wear resistance, and the ability to hold a cutting edge in demanding materials.</p>
+  <p><strong>Specify ASP2030 when:</strong> broaching hardened steels above 40 HRC, titanium alloys, Inconel, or any superalloy. Also the right choice when broach chipping or premature wear is a recurring problem with conventional HSS.</p>
+
+  <div class="highlight-box">
+    <h4>Not sure which grade to specify?</h4>
+    <p>Share your workpiece material and hardness when you enquire. An experienced manufacturer will recommend the appropriate grade based on the application. At SK Broach, this guidance is included with every quotation.</p>
+  </div>
+
+  <h2 id="surface-finish">Surface Finish Requirements</h2>
+  <p>The surface finish of a broached hole or slot is expressed as Ra (arithmetical mean roughness) in micrometres. Broaching typically produces very good surface finishes — often better than milling or drilling — because the cutting action is smooth and continuous rather than intermittent.</p>
+  <p>Typical achievable finishes by operation type:</p>
+  <ul>
+    <li><strong>Roughing broach:</strong> Ra 3.2–6.3 µm</li>
+    <li><strong>Semi-finishing broach:</strong> Ra 1.6–3.2 µm</li>
+    <li><strong>Finishing broach:</strong> Ra 0.8–1.6 µm</li>
+    <li><strong>Ground finishing broach:</strong> Ra 0.4–0.8 µm</li>
+  </ul>
+  <p>If your drawing calls for Ra 1.6 or better, specify this. For Ra 0.8 or better, a ground-tooth finishing broach is required — this affects the tooling cost and should be specified upfront rather than discovered at inspection.</p>
+
+  <h2 id="lead-times">Realistic Lead Times</h2>
+  <p>Lead time depends on the complexity of the profile, the HSS grade required, and the manufacturer's current workload. As a general guide:</p>
+
+  <table class="tol-table">
+    <thead>
+      <tr>
+        <th>Broach Type</th>
+        <th>Typical Lead Time</th>
+        <th>What Affects It</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Standard keyway broach (M2)</td>
+        <td>1–2 weeks</td>
+        <td>Profile is standard; may be in stock</td>
+      </tr>
+      <tr>
+        <td>Custom keyway / spline (M2 or M35)</td>
+        <td>2–3 weeks</td>
+        <td>Requires drawing review and grinding</td>
+      </tr>
+      <tr>
+        <td>Hex / polygon broach</td>
+        <td>2–4 weeks</td>
+        <td>Profile complexity, tolerance class</td>
+      </tr>
+      <tr>
+        <td>Custom form broach (complex profile)</td>
+        <td>4–6 weeks</td>
+        <td>Profile design, EDM or form grinding required</td>
+      </tr>
+      <tr>
+        <td>ASP2030 / PM-HSS broach</td>
+        <td>Add 1–2 weeks</td>
+        <td>Material procurement, additional heat treatment steps</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <p>The single biggest factor in lead time is the completeness of your enquiry. A complete drawing with tolerances, workpiece material, and pilot diameter allows the manufacturer to go straight to production. A vague enquiry triggers a back-and-forth that can add a week or more.</p>
+
+  <div class="highlight-box">
+    <h4>For Export Buyers</h4>
+    <p>SK Broach regularly ships to Germany, the UAE, the US, and Southeast Asia. Typical DHL Express transit from Samana (Punjab, India) to Europe is 3–5 working days. All export shipments include material test certificates, dimensional inspection reports, and packing lists for customs. Enquiries via <a href="/get-a-quote/" style="color:var(--gold);">the quote form</a> receive a response within 24 hours.</p>
+  </div>
+
+  <h2 id="what-to-send">What to Send When You Enquire</h2>
+  <p>When you contact SK Broach (or any broach manufacturer), include the following in your first message to get an accurate quote quickly:</p>
+
+  <div class="checklist">
+    <h3>Broach Specification Checklist</h3>
+    <ul>
+      <li>Drawing of the finished broached component (PDF, DXF, or dimensioned sketch)</li>
+      <li>Profile type: keyway / spline / hex / round / custom form</li>
+      <li>Pilot bore diameter (pre-machined hole diameter)</li>
+      <li>Workpiece material and hardness (e.g. EN8, 200 HB)</li>
+      <li>Required tolerance class (e.g. ISO H7, DIN 5480 Class 8)</li>
+      <li>Surface finish requirement (Ra value, or "standard finish")</li>
+      <li>Expected quantity per batch and annual volume</li>
+      <li>Preferred HSS grade (or "please recommend")</li>
+      <li>Required delivery date or lead time constraint</li>
+      <li>Destination country (for export orders)</li>
+    </ul>
+  </div>
+
+  <h2 id="standards">Standards to Reference</h2>
+  <p>When specifying tolerances and fits, reference one of the following standards depending on your region and profile type. This eliminates ambiguity and ensures the manufacturer interprets your requirements correctly:</p>
+  <ul>
+    <li><strong>ISO 286:</strong> Tolerances and fits (hole and shaft) — use for keyway width (H7/H8) and internal bore broaches</li>
+    <li><strong>DIN 5480:</strong> Involute spline connections — the most common standard for spline broaches in Europe and India</li>
+    <li><strong>ANSI B92.1:</strong> Involute splines — used in US automotive and aerospace applications</li>
+    <li><strong>DIN 5462 / 5463:</strong> Parallel key connections (square and rectangular keyways)</li>
+    <li><strong>GOST 24071:</strong> Russian standard for keyway broaches — relevant for CIS market orders</li>
+    <li><strong>JIS B 1601:</strong> Japanese standard for keyways — relevant for Japanese OEM supply chain</li>
+    <li><strong>ASA B5.15:</strong> American standard for woodruff keys and keyways</li>
+  </ul>
+  <p>If your drawing already references a standard, quote it in your enquiry. If it does not, ISO 286 + DIN 5480 are the most widely understood in the global broach industry.</p>
+
+  <!-- FAQ Section -->
+  <div class="faq-section">
+    <h2 id="faq">Frequently Asked Questions</h2>
+
+    <div class="faq-item">
+      <h3>What information do I need to specify a broach?</h3>
+      <p>The six essentials are: profile type and dimensions, pilot bore diameter, workpiece material and hardness, tolerance class, surface finish requirement, and expected production volume. A drawing of the finished broached component is the fastest way to convey all of this.</p>
+    </div>
+
+    <div class="faq-item">
+      <h3>What tolerance can a broach hold?</h3>
+      <p>A well-made HSS broach consistently holds IT7 to IT8. For keyways this means ±0.010–0.020 mm on width. For involute splines, DIN 5480 Class 7 or 8 is standard. Tighter IT6 tolerances are achievable with ground broaches.</p>
+    </div>
+
+    <div class="faq-item">
+      <h3>What is the typical lead time for a custom broach?</h3>
+      <p>For standard profile custom broaches (keyway, spline, hex) in M2 HSS, typical lead time is 2–3 weeks. Complex form broaches or ASP2030 grade tools may take 4–6 weeks. A complete drawing at the time of enquiry is the best way to minimise lead time.</p>
+    </div>
+
+    <div class="faq-item">
+      <h3>Which HSS grade should I specify?</h3>
+      <p>M2 for mild to medium steels; M35 for stainless, alloy steels, and high-production runs; ASP2030 for hardened steels above 40 HRC or superalloys. If unsure, share your workpiece material and let the manufacturer recommend.</p>
+    </div>
+  </div>
+
+  <div class="cta-block">
+    <h3>Ready to Specify Your Broach?</h3>
+    <p>Send us your drawing or component requirements. We'll review and respond with a detailed quote within 24 hours — including recommended HSS grade, tolerances, and lead time.</p>
+    <a href="/get-a-quote/">Request a Quote →</a>
+  </div>
+
+</article>
+
+<!-- SIDEBAR -->
+<aside class="sidebar">
+  <div class="sidebar-card">
+    <h4>Contents</h4>
+    <ul class="toc-list">
+      <li><a href="#what-is-broach-specification">What does specifying mean?</a></li>
+      <li><a href="#required-information">Six things your manufacturer needs</a></li>
+      <li><a href="#tolerances">Tolerances a broach can hold</a></li>
+      <li><a href="#material-grade">Choosing the HSS grade</a></li>
+      <li><a href="#surface-finish">Surface finish requirements</a></li>
+      <li><a href="#lead-times">Realistic lead times</a></li>
+      <li><a href="#what-to-send">Specification checklist</a></li>
+      <li><a href="#standards">Standards to reference</a></li>
+      <li><a href="#faq">FAQ</a></li>
+    </ul>
+  </div>
+  <div class="sidebar-card">
+    <h4>Related Articles</h4>
+    <ul class="related-list">
+      <li><a href="/blog/keyway-vs-spline-broach/">Keyway Broach vs Spline Broach: Which Do You Need?</a></li>
+      <li><a href="/blog/hss-grades-m2-m35-asp2030/">M2 vs M35 vs ASP2030: Which HSS Grade?</a></li>
+    </ul>
+  </div>
+  <div class="sidebar-card" style="background:var(--dark);border-color:var(--gold);">
+    <h4 style="color:rgba(255,255,255,0.5);">ISO 9001:2015 Certified</h4>
+    <p style="color:rgba(255,255,255,0.75);font-size:13px;line-height:1.5;margin-bottom:14px;">Cert No. E2024016845 · Valid until 17 Jan 2027. Issued by RAPL (EGAC accredited).</p>
+    <a href="/get-a-quote/" style="display:block;background:var(--gold);color:#fff;text-align:center;padding:9px;border-radius:5px;font-size:13px;font-weight:700;text-decoration:none;">Get a Quote →</a>
+  </div>
+</aside>
+
+</div><!-- /article-wrap -->
+
+<footer>
+  <p>&copy; 2026 SK Broach Enterprises, Patiala, India &nbsp;|&nbsp; <a href="/">skbroach.com</a></p>
+</footer>
+
+</body>
+</html>
