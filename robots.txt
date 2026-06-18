@@ -1,0 +1,8 @@
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://skbroach.com/sitemap.xml
+
+# Crawl-delay (optional, respectful)
+Crawl-delay: 1
